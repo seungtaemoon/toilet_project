@@ -13,6 +13,7 @@ app.secret_key = 'secret_key'
 def home():
     return render_template('login.html')
 
+# 검색 페이지 출력
 @app.route('/list')
 def login_finish():
     return render_template('list.html')
