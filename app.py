@@ -8,7 +8,7 @@ db = client.dbsparta
 # create a session object
 app.secret_key = 'secret_key'
 
-
+# 메인 홈페이지 출력
 @app.route('/')
 def home():
     return render_template('login.html')
